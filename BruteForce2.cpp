@@ -1,5 +1,5 @@
 #include <iostream>
-#include <limits>
+// #include <limits>
 using namespace std;
 
 int main(){
@@ -26,6 +26,6 @@ int main(){
 
     if(!b) cout << "0" << endl;
 
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');
-    cin >> N;
+    // cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    // cin >> N;
 }
